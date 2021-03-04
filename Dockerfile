@@ -24,6 +24,8 @@ RUN apt-get install -y tzdata && \
     ssh \
     sudo \
     vim \
+    npm \
+    nodejs \
    rclone \
    fuse \
     && rm -rf /var/lib/apt/lists/*
