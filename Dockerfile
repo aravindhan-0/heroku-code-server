@@ -26,6 +26,7 @@ RUN apt-get install -y tzdata && \
     vim \
     npm \
     nodejs \
+    p7zip-full \
    rclone \
    fuse \
     && rm -rf /var/lib/apt/lists/*
